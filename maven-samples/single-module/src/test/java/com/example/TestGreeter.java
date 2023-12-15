@@ -26,10 +26,10 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone), containsString(someone));
   }
-    @Test
+  @Test
   public void intentionally_Failed() {
 
-    assertTrue(true);
+    assertTrue(false);
   }
 
   @Test
